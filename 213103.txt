@@ -34,7 +34,7 @@ git pull - превземањe на содржината од remote repository
 git checkout bug2 - префрлување на гранката bug2
 git push -u origin bug2 - сите промени кои се направени на bug2 гранката се синхронизираат со remote repository
 19. git checkout master - префрлување на гранката master
-20. git merge bug1 - спојување на bug1 со master
+20. git merge bug1 - спојување на bug1 со master, нема конфликт и спојувањето ќе се изврши со fast-forward стратегија
 21. git pull - превземањe на содржината од remote repository
 git push -u origin master - сите промени кои се направени на master гранката се синхронизираат со remote repository
 git checkout bug2 - префрлување на гранката bug2
@@ -43,7 +43,7 @@ git push -u origin bug2 - сите промени кои се направени
 22. git checkout bug2 - префрлување на гранката bug2
 23. git rebase master -  при командата се јавува конфликт кој мора да се реши со тоа што бришеме дел од кодот кој е во конфликт, и потоа се прави merge commit 
 24. git checkout master - префрлување на гранката master
-25. git merge bug2 - спојување на master со bug2
+25. git merge bug2 - спојување на master со bug2, нема конфликт, спојувањето се врши со fast-forward стратегија
 26. git pull -превземањe на содржината од remote repository
 git push -u origin master - сите промени кои се направени на master гранката се синхронизираат со remote repository
 git pull - превземањe на содржината од remote repository
