@@ -1,0 +1,37 @@
+DELL@DESKTOP-UN4F907 MINGW64 ~/SI_2024_lab1_213103 (bug2|MERGING)
+$ git log
+commit 49bc88a06e691bed42044ac1a5ced8eeb9049570 (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 15:22:31 2024 +0200
+
+    Resloved merge conflict in SILab1Main.java
+
+commit 42c78f3ba87e29993cd39f9e4dc5da1b97fc8a35
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 15:13:32 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 8cb3f85329166130b2c5b41dc2b4b0d3764416f3 (origin/bug1, bug1)
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 15:17:48 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 685e4487752b6c47865e363c41cffa584c988448
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 15:09:47 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 4bd7d0bab89c589b4ccf03abd4f9df52face22c3
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 14:48:17 2024 +0200
+
+    Add starter code
+
+commit 24b05df1254e2992d146b1d475543a923aace82b
+Author: stefanovak51 <109036969+stefanovak51@users.noreply.github.com>
+Date:   Sat Apr 13 13:51:20 2024 +0200
+
+    Initial commit

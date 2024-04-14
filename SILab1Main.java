@@ -14,8 +14,12 @@ public class SILab1Main {
             list.add(sc.next());
         }
 <<<<<<< HEAD
-      System.out.println(SILab1_1.filterOddLengthStrings(list));
+<<<<<<< HEAD
+      
 =======
 >>>>>>> 45b56d2 (Call method makeBigStringFrom in main class)
+=======
+      System.out.println(SILab1_2.makeBigStringFrom(list));
+>>>>>>> 45b56d25906fd13e06c5b293f823aea288c1d200
     }
 }

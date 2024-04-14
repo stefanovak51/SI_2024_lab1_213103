@@ -1,0 +1,63 @@
+4. mkdir SI_2024_lab1_213103 - креираме директориум
+cd SI_2024_lab1_213103 - влегуваме во директориумот
+git init - директориумот се претвора во git repository
+5. git remote add originhttps://github.com/stefanovak51/SI_2024_lab1_213103 - локалниот репозиториум го поврзуваме со remote репозиториумот кој го направивме во чекор 3
+6. nano README.md - додавање на readme датотека
+git add README.md - staging на датотеката
+git commit -m "Initial commit" - commit на датотеката
+7. git add . - staging на датотеките
+git commit -m "Add starter code" - commit на датотеките
+8. git pull - превземањe на содржината од remote repository
+git push -u origin master - сите промени кои се направени се синхронизираат со remote repository
+9. git branch bug1 - додавање на гранка bug1
+git branch bug2 - додавање на гранка bug2
+10. git checkout bug1 - префрлување на гранката bug1
+11. nano SILab1_1.java - влегување во фајлот(внатре е поправена споменатата грешка)
+git add SILab1_1.java - staging на истиот фајл
+git commit -m "Fix wrong condition in filterOddLengthStrings" - commit на фајлот со поправена грешка
+12. git checkout bug2 - префрлување на гранката bug2
+13. nano SILab_2.java - влегување во фајлот(внатре е поправена споменатата грешка)
+git add SILab1_2.java - staging на истиот фајл
+git commit -m "Fix wrong condition in makeBigStringFrom" - commit на фајлот со поправена грешка
+14. git checkout bug1 - префрлување на гранката bug1
+15. nano SILab1Main.java - влегување во фајлот(внатре се додава една линија код)
+git add SILab1Main.java - staging на истиот фајл
+git commit -m "Call method filterOddLengthStrings in main class" - commit на фајлот
+16. git checkout bug2 - префрлување на гранката bug2
+17. nano SILab1Main.java - влегување во фајлот(внатре се додава една линија код)
+git add SILab1Main.java - staging на истиот фајл
+git commit -m "Call method makeBigStringFrom in main class" - commit на фајлот
+18. git pull - превземањe на содржината од remote repository
+git checkout bug1 - префрлување на гранката bug1
+git push -u origin bug1 - сите промени кои се направени на bug1 гранката се синхронизираат со remote repository
+git pull - превземањe на содржината од remote repository
+git checkout bug2 - префрлување на гранката bug2
+git push -u origin bug2 - сите промени кои се направени на bug2 гранката се синхронизираат со remote repository
+19. git checkout master - префрлување на гранката master
+20. git merge bug1 - спојување на bug1 со master
+21. git pull - превземањe на содржината од remote repository
+git push -u origin master - сите промени кои се направени на master гранката се синхронизираат со remote repository
+git checkout bug2 - префрлување на гранката bug2
+git pull -превземањe на содржината од remote repository
+git push -u origin bug2 - сите промени кои се направени на bug2 гранката се синхронизираат со remote repository
+22. git checkout bug2 - префрлување на гранката bug2
+23. git rebase master -  при командата се јавува конфликт кој мора да се реши со тоа што бришеме дел од кодот кој е во конфликт, и потоа се прави merge commit 
+24. git checkout master - префрлување на гранката master
+25. git merge bug2 - спојување на master со bug2
+26. git pull -превземањe на содржината од remote repository
+git push -u origin master - сите промени кои се направени на master гранката се синхронизираат со remote repository
+git pull - превземањe на содржината од remote repository
+git chekout bug1 - префрлување на гранката bug1
+git push -u origin bug1 - сите промени кои се направени на bug1 гранката се синхронизираат со remote repository
+git pull -превземањe на содржината од remote repository
+git checkout bug2 - префрлување на гранката bug2
+27. git push --force bug2 - присилно синхронизирање на bug2 гранката со remote repository бидејќи се јавува конфликт
+28. git log - оваа команда ни дава информации за сите commits кои ги имаме направено, од кого се направени, и точен датум и време кога се направени
+git checkout master - префрлување на гранката master
+nano logs.txt - отвораме датотека logs.txt во која го копираме се што ни се појави со командата git log
+nano 213103.txt - датотеката во која ни стои целата документација за вежбата
+git add . - staging на двата текстуални фајлови
+git commit -m "Final commit" 
+29. git pull - превземањe на содржината од remote repository
+git push -u origin master -  сите промени кои се направени на master гранката се син>
+
